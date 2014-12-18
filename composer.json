@@ -1,0 +1,11 @@
+{
+    "name": "Leaf framework helpers",
+    "description": "Leaf framework helper functions",
+    "homepage": "https://git.cubesystems.lv/cubesystems/leaf-helpers",
+    "license": "MIT",
+    "autoload": {
+       "files": [
+            "src/helpers.php",
+        ]
+    }
+}
