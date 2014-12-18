@@ -1,7 +1,7 @@
 {
-    "name": "leaf/helpers",
+    "name": "roboc/helper-functions",
     "description": "Leaf framework helper functions",
-    "homepage": "https://git.cubesystems.lv/cubesystems/leaf-helpers",
+    "homepage": "https://github.com/roboc/helper-functions",
     "license": "MIT",
     "autoload": {
        "files": [
