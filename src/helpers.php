@@ -1,8 +1,7 @@
 <?php
 
-if (!function_exists('dump'))
-{
-    function dump($variable, $die = true)
+if (!function_exists('d')) {
+	function d($variable, $die = true)
 	{
 		//output array
 		if (
@@ -32,5 +31,12 @@ if (!function_exists('dump'))
 		if ($die) {
 			die();
 		}
+	}
+}
+
+if (!function_exists('dump')) {
+	function dump($variable, $die = true)
+	{
+		return d( $variable, $die );
 	}
 }
